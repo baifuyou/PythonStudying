@@ -1,5 +1,4 @@
 Properties
-
 ===========
 
 >Properties是一个Python实现的key-value工具。properties文件的格式为:
