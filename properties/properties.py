@@ -13,6 +13,7 @@ class Properties(object):
 			dataFile = open(path, 'r')
 			for line in dataFile:
 				self.data[ self.getKey(line) ] = self.getValue(line)
+			dataFile.close()
 		self.path = path
 	def getKey(self, line):
 		line.strip()
